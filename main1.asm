@@ -25,12 +25,12 @@ mov ds,ax   ; ds =ax so firstProgram
 jmp basla  ; Jump to basla so don't see the variables measj1 and mesaj2 
            ; I don't wanted to run them right now so I jumped above them
 
-mesaj1 db 10,13,'Hey$'  
-mesaj2 db 10,13,'How are you$'
+message1 db 10,13,'Hey$'  
+message2 db 10,13,'How are you$'
 
 basla:
     mov ah,09h  ; Display a string on screen (until $ character)
-    mov dx,offset mesaj1  ; offset is important because it says the address of the mesaj1 variable
+    mov dx,offset message1  ; offset is important because it says the address of the message1 variable
     int 21h  ; DOS system services (input/output, files, etc.)
     
     
@@ -49,7 +49,7 @@ basla:
     
    
     mov ah,09h
-    mov dx,offset mesaj2
+    mov dx,offset message2
     int 21h
 
     ret ; return 
@@ -60,3 +60,4 @@ main endp  ; ends of the main function
 firstprogram ends  ; Everything between - firstProgram segment and firstProgram ends - is belong to a special memory -named as firstProgram- inside my memory
 
 end main   ; ends of the main function
+
