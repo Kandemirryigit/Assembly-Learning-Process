@@ -76,5 +76,6 @@ end main
 
 
 
-; If the thing is string memory stores it's address inside dx
-; If the thing is a character memory stores it inside dl
+; If the thing is string then memory stores it's address inside dx
+
+; If the thing is a character then memory stores it inside dl
