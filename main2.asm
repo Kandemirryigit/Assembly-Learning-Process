@@ -1,3 +1,8 @@
+;======================================
+;To show ascii characters on the screen
+;======================================
+
+
 ascii segment  ; My program lives inside ascii segment in my memory
 main proc far  ; I created a function named main,and I can call it from another segment (because I used far)
 
@@ -37,3 +42,4 @@ ret ; return
 main endp
 ascii ends
 end main
+
