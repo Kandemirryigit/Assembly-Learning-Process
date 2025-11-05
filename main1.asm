@@ -1,3 +1,9 @@
+;===============================
+; To show a string on the screen
+;===============================
+
+
+
 ; I should define a segment when I start to write a program because my memory is seperated into segments
 ; for example(code segment,Data segment,Stack segment,Extra segment ...) so if I wanna write a program I should take a location from memory
 ; My program lives into segment in my memory
@@ -60,4 +66,5 @@ main endp  ; ends of the main function
 firstprogram ends  ; Everything between - firstProgram segment and firstProgram ends - is belong to a special memory -named as firstProgram- inside my memory
 
 end main   ; ends of the main function
+
 
