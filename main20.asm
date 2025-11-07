@@ -115,7 +115,8 @@ subscription:
     
     ; Before division we should make ah 0 because it can affect our operation
     mov ah,0
-    
+
+    ; **** This division is for be able to write the number with 2 digits on the screen ****
     ; al/ten
     div ten
     
@@ -151,6 +152,7 @@ ret
 main endp
 operation ends
 end main
+
 
 
 
