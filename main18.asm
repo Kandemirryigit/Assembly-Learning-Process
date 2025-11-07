@@ -1,5 +1,5 @@
 ;======================================================================
-; Control the work that we took from keyboard is starting with a or not
+; Control the word that we took from keyboard is starting with a or not
 ;======================================================================
 
 
@@ -79,4 +79,5 @@ notStartWitha:
 
 main endp
 control ends
+
 end main
