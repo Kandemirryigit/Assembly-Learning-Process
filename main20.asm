@@ -1,3 +1,6 @@
+;===================================================================================
+; Take  number1: 2 digit , take number2: 1 digit make this operation number2-number1
+;===================================================================================
 
 
 ; Created this macro to display a string on the screen
@@ -148,6 +151,7 @@ ret
 main endp
 operation ends
 end main
+
 
 
 
