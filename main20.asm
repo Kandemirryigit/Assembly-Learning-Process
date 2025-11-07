@@ -117,6 +117,11 @@ subscription:
     mov ah,0
 
     ; **** This division is for be able to write the number with 2 digits on the screen ****
+    ; We made the subscription operation above 
+    ; Lets assume it was 26-4=22
+    ; Then we should write 22 on the screen
+    ; 22/10 al=2 ah=2 
+    ; So if we write al ah then its 22
     ; al/ten
     div ten
     
@@ -152,6 +157,7 @@ ret
 main endp
 operation ends
 end main
+
 
 
 
