@@ -1,3 +1,8 @@
+;===========================================================
+; To determine how much even number includes given 20 number
+;===========================================================
+
+
 findEven segment
 main proc far
 assume cs:findEven,ds:findEven
@@ -138,4 +143,5 @@ programEnds:
 
 main endp
 findEven ends
+
 end main
