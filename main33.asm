@@ -1,6 +1,6 @@
-;---------------------
-;FIND LENGHT OF STRING
-;---------------------
+;-------------------------------------------------------
+;FIND LENGHT OF STRING AND DISPLAY IT (SINGLE CHARACTER)
+;-------------------------------------------------------
 
 
 data segment
@@ -55,4 +55,5 @@ finish:
     
 code ends
 end start
+
     
