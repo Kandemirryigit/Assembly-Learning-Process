@@ -1,6 +1,6 @@
-;--------------------
-;BITWISE AND PROGRAM
-;--------------------
+;-------------------------------------------------------------------
+;BITWISE AND PROGRAM DISPPLAY ON THE SCREEN THE DECIMAL NUMBER (0-9)
+;-------------------------------------------------------------------
 
 
 data segment
@@ -49,4 +49,5 @@ end start
 ; You already know bitwise operations cuz of that I think I don't need to explain it
 ; I aslo saw them in C 
     
+
     
